@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, minimum-scale=1.0, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>KV-FE-TEST-2021</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <div class="headerTextContainer">
+                <h1 class="headerText">{<b>Shuffle & sort</b><span class="colorCharacter">/</span>}</h1>
+            </div>
+        </header>
+        <div class="appContent">
+            <div id="numberList" class="numberContainer">
+                <div class="number odd"><span>1</span></div>
+                <div class="number even"><span>2</span></div>
+                <div class="number odd"><span>3</span></div>
+                <div class="number even"><span>4</span></div>
+                <div class="number odd"><span>5</span></div>
+                <div class="number even"> <span>6</span></div>
+                <div class="number odd"><span>7</span></div>
+                <div class="number even"><span>8</span></div>
+                <div class="number odd"><span>9</span></div>
+            </div>
+            <div class="asideContainer">
+                <div class="buttonContainer">
+                    <button class="prymaryButton" onclick="shuffle()">
+                        <img src="./images/icon-shuffle.svg" alt="icon-shuffle" />
+                        <span class="buttonText">Shuffle</span>
+                    </button>
+                    <button class="prymaryButton" onclick="sort()">
+                        <img src="./images/icon-sort.svg" alt="icon-sort" />
+                        <span class="buttonText">Sort</span>
+                    </button>
+                </div>
+                <div class="logoContainer">
+                    <img class="logo-light" src="./images/logo-light.svg" alt="logo-kraftvaerk-light" />
+                    <img class="logo-dark" src="./images/logo-dark.svg" alt="logo-kraftvaerk-dark" />
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="footerText">Shuffle & sort by Jeremias Jalil</p>
+        </footer>
+    </div>
+</body>
+<script src="scripts/index.js"></script>
+
+</html>
